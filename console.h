@@ -144,10 +144,10 @@ void ClearLine()
 {
     int i;
 
-    gotoxy(console_width()-1, wherey());
+    gotoxy(ConsoleWidth()-1, wherey());
     
     printf(" \b");
-    for (i=0; i<console_width(); i++)
+    for (i=0; i<ConsoleWidth(); i++)
     {
         printf("\b \b");
     }
